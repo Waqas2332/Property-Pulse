@@ -1,8 +1,12 @@
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
+
 const Homepage = () => {
   return (
-    <div>
-      <h1 className="text-3xl">Welcome</h1>
-    </div>
+    <>
+      <Hero />
+      <InfoBoxes />
+    </>
   );
 };
 
